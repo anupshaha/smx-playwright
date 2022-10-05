@@ -1,0 +1,21 @@
+{
+  "name": "smx-playwright",
+  "version": "1.0.0",
+  "description": "Basic Framework is created for usage of Playwright Automation Tool for NPX (Satmetrix Application)",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "cross-env test_env=sp01at2 locale_code=enUS npx playwright test --config=./playwright.config.ts",
+    "test:chrome": "cross-env test_env=sp01at2 npx playwright test --config=./playwright.config.ts --project=Chromium",
+    "test:webkit": "cross-env test_env=sp01at2 locale_code=enUS npx playwright test --config=./playwright.config.ts --project=Webkit",
+    "test:firefox": "cross-env test_env=sp01at2 locale_code=enUS npx playwright test --config=./playwright.config.ts --project=Firefox"
+  },
+  "author": "Anup Shaha",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.26.1",
+    "dotenv": "16.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
