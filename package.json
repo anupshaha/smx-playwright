@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@playwright/test": "^1.26.1",
-    "dotenv": "16.0.2"
+    "dotenv": "^16.0.2"
   },
   "devDependencies": {
     "cross-env": "^7.0.3"

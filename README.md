@@ -8,6 +8,9 @@
     4. Extra Utility Files (APIActions.ts, WebActions.ts and Wrapper.ts) are added just for future reference. In basic POC, these files are not used.
 
 ## Setup:
-    `npm install @playwright/test`
-    `npm install dotenv --save`
+### playwright/test installation:
+    npm install @playwright/test
+### dotenv installation:
+    npm install dotenv --save
+### cross-env installation:
     `npm install --save-dev cross-env`

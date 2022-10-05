@@ -17,7 +17,7 @@ if (!locale_code || ![`enUS`, `jaJP`].includes(locale_code)) {
 const config: PlaywrightTestConfig = {
     timeout: 120000,
     retries: 0,
-    reporter: [["list"], ["html"]],
+    reporter: [["list"], ["html"], ["junit"]],
     use: {
         headless: false,
         viewport: { width: 1280, height: 720 },

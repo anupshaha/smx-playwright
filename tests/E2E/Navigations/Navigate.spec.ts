@@ -5,7 +5,7 @@ import LoginPage from "../../../src/pages/login/LoginPage";
 import ENV from "../../../src/utils/env";
 import {MenuOptions, SubMenuOptions} from "../../../src/constants/navigationMenu";
 
-test.describe.only(`Left Side Panel Navigation Tests`, ()=>{
+test.describe(`Left Side Panel Navigation Tests`, ()=>{
 
     let loginPage : LoginPage;
     let headerComponent : Header;
