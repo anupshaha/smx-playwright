@@ -14,3 +14,7 @@
     npm install dotenv --save
 ### cross-env installation:
     npm install --save-dev cross-env
+
+## Steps to Execute:
+    1. Create script in package.json file with required test configurations
+    2. Execute the test script using command : npm run <script name>    [For example: npm run test:chrome]
